@@ -2,6 +2,36 @@
   text-align: center;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  padding: 8px;
+}
+
+li button {
+  background: magenta;
+  color: cadetblue;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+li.high-priority {
+  border: 2px solid green;
+ 
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
